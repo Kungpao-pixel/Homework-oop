@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <ul class="nav justify-content-center">
+        <li class="Registration">
+          <button type="button" onclick="openTab(['registration','table'])">Registration</button>
+        </li>
+        <li class="List-Pendaftar">
+          <button type="button" onclick="openTab(['table','registration'])">List Pendaftar</button>
+        </li>
+    </ul>
+
+    <div id="registration" class="active">
+        <form action="#" id="form" onsubmit="return addDataToTable()" >
+        <h1>Registration</h1>
+        <div class="input-control">
+            <label for="username">Your Name :</label>
+            <input type="text" id="username" name="username" placeholder="min 10 character">
+            
+        </div>
+        <div class="input-control">
+            <label for="age">Your Age :</label>
+            <input type="text" id="age" name="age" placeholder="min age 25 yo">
+            
+        </div>
+        <div class="input-control">
+            <label for="pocket-money">Your Pocket Money :</label>
+            <input type="text" id="pocket-money" name="pocket-money" placeholder="100000-1000000">
+            
+        </div>
+        <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="table" class="none">
+        <h1>List Pendaftar</h1>
+        <table id="pendaftar">
+            <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Age</td>
+                    <td>Pocket Money</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <div id="averageInfo"></div>
+        <p>Average Age: <span id="average-age">0</span></p>
+        <p>Average Pocket Money: <span id="average-pocket-money">0</span></p>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

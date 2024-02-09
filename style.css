@@ -1,0 +1,127 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.active {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+#form {
+    width: 300px;
+    margin: 10vh auto 0 auto;
+    padding: 20px;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+#form h1 {
+    text-align: center;
+    color: #284b63;;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    color: #fff;
+    background-color: #284b63;
+    border: none;
+    border-radius: 5px;
+    
+}
+#form button:hover{
+    background-color: #5faee4;
+}
+
+.input-control {
+    text-align: center;
+    justify-content: center;
+    padding: 5px;
+    margin: auto;
+}
+
+#registration {
+    
+    align-items: center;
+    justify-content: center;
+    height: vh;
+  }
+  
+  .input-control {
+    margin-bottom: 15px;
+  }
+  
+  .input-control label {
+    display: block;
+  }
+  
+  .input-control input {
+    width: 200px;
+  }
+  
+
+  .nav {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .nav li {
+    margin: 0 10px;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .nav li button {
+    padding: 5px 10px;
+    background-color: #284b63;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .nav li button:hover {
+    background-color: #5faee4;
+  }
+  
+
+  #table {
+    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  #table h1 {
+    text-align: center;
+  }
+  
+  #pendaftar {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #pendaftar td {
+    padding: 8px;
+    border-bottom: 1px solid #b12626;
+  }
+  
+  #pendaftar th {
+    padding: 8px;
+    border-bottom: 2px solid #3f2b2b;
+    background-color: #d12424;
+    text-align: center;
+  }
+  
